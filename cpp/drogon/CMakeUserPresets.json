@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/Users/ygunayer/dev/restbench/cpp/drogon/build/CMakePresets.json"
+    ]
+}

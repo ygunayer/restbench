@@ -1,0 +1,8 @@
+[requires]
+drogon/1.8.4
+jsoncpp/1.9.5
+libpq/15.4
+
+[generators]
+CMakeDeps
+CMakeToolchain

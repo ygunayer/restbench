@@ -16,14 +16,14 @@ autocannon({
   url: 'http://0.0.0.0:4000/api/v1/auth/register',
   method: 'POST',
   idReplacement: true,
-  connections: 64,
-  workers: 64,
+  connections: 16,
+  workers: 16,
   headers: {
     'content-type': 'application/json',
   },
   body: JSON.stringify({
-    name: 'Yalin Gunayer',
-    email: `yalin.gunayer+[<id>]@gmail.com`,
+    name: 'Foo Bar',
+    email: `foo+[<id>]@bar.com`,
     password: '12345678',
     password_confirmation: '12345678',
   }, null, 0)
